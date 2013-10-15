@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel='stylesheet' type='text/css' href='menu_styles.css' />
+	<script src='jquery.min.js'></script>
+</head>
+
+
+ <style>
+    body {
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+	
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #D4E6F8 100%);
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #D4E6F8 100%);
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #D4E6F8 100%);
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(1, #AD4E6F8));
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #D4E6F8 100%);
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to top, #EEF5FC 0%, #D4E6F8 100%);
+
+
+
+    }
+	
+    footer {
+	     background-color: #232323;
+		 box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+         height: 50px;
+		 width: 100%;
+		 
+		 position:absolute;
+         bottom:0px;
+		 align="center"
+		
+    }
+     
+	 
+    #foottxt {
+	 font-family: Verdana, 'Lucida Grande';
+     font-size: 15px;
+	 color: white;
+	
+	}
+
+	#pad {
+	     background-color: #232323;
+		 box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+         height: 80%;
+		 width: 90%;
+		 
+		 position:absolute;
+         top:10%;
+		 left:5%;
+		 opacity: 0.8;
+		 
+		 padding-top:10px; 
+         padding-left:10px;
+		 
+		 overflow:auto;
+    }
+	
+	tr {
+	  font-family: Verdana, 'Lucida Grande';
+      font-size: 14px;
+      color: white;
+	  
+	 
+	}
+
+	
+	 
+   
+	 th.a { height: 24px; width: 20%; overflow: hidden; }
+	 th.b { width: 70%; overflow: hidden; }
+	 th.c { width: 50%; overflow: hidden; }
+	 
+	 td.a { width: 10%; overflow: hidden; }
+	 td   { height: 24px; width: 10%; overflow: hidden; }
+</style> 
+
+
+
+<body>
+<div id='cssmenu'>
+<a href='home.html'>
+<img src="img/logo.gif" alt="回首頁" height="80%" width="200px" STYLE="FLOAT: LEFT;"></a>
+<ul>
+   <li><a href='about.html'><span>南都介紹</span></a></li>
+   <li><a href='#'><span>新車資訊</span></a>
+      <ul>
+         <li><a href='http://www.toyota.com.tw/'><span>TOYOTA</span></a></li>
+         <li><a href='http://www.lexus.com.tw/'><span>LEXUS</span></a></li>
+      </ul>
+   </li>
+
+   <li><a href='#'><span>據點</span></a>
+      <ul>
+         <li><a href='#'><span>營業所</span></a></li>
+         <li><a href='#'><span>服務廠</span></a></li>
+		 <li><a href='#'><span>中古車</span></a></li>
+      </ul>
+   </li>
+   
+ 
+   <li><a href='#'><span>其他</span></a></li>
+   <li><a href='http://www.toyota-cm.com/'><span>員工專區</span></a></li>
+   <li><a href='https://www.facebook.com/TOYOTA.Taiwan?fref=ts' target=_blank><span>FB粉絲團</span></a></li>
+</ul>
+</div>
+
+
+<div id='pad'>
+
+<table border="1">
+<tr>
+<th class="a" colspan="2">TOYOTA 營業所</th>
+<th class="b">地址</th>
+<th class="c">電話</th>
+</tr>
+
+<tr>
+<td rowspan="14" class="a">南台中</td>
+<td>南台中</td>
+<td>台中市南區復興路一段369號</td>
+<td>(04)22619151</td>
+</tr>
+<tr>
+<td>中台中</td>
+<td>台中市西屯區市政路159號 (喬遷新址)</td>
+<td>(04)22520011</td>
+</tr>
+<tr>
+<td>潭　子</td>
+<td>台中市潭子區中山路一段285號</td>
+<td>(04)25334185</td>
+</tr>
+<tr>
+<td>大　甲</td>
+<td>台中市大甲區中山路一段1136號</td>
+<td>(04)26877289</td>
+</tr>
+<tr>
+<td>豐　原</td>
+<td>台中市豐原區豐勢路二段103號</td>
+<td>(04)25287541</td>
+</tr>
+<tr>
+<td>東台中</td>
+<td>台中市東區進化路190號</td>
+<td>(04)22115360</td>
+</tr>
+<tr>
+<td>文　雅</td>
+<td>台中市北屯區文心路三段999號</td>
+<td>(04)22115360</td>
+</tr>
+<tr>
+<td>大　里</td>
+<td>台中市大里區中興路二段155號</td>
+<td>(04)22115360</td>
+</tr>
+<tr>
+<td>沙　鹿</td>
+<td>台中市梧棲區中棲路一段333號</td>
+<td>(04)22115360</td>
+</tr>
+<tr>
+<td>東　海</td>
+<td>台中市西屯區工業區二路2號</td>
+<td>(04)22115360</td>
+</tr>
+<tr>
+<td>大　雅</td>
+<td>台中市大雅區中清路一段189號</td>
+<td>(04)22115360</td>
+</tr>
+<tr>
+<td>北豐原</td>
+<td>台中市豐原區豐原大道一段658號</td>
+<td>(04)22115360</td>
+</tr>
+<tr>
+<td>太　平</td>
+<td>台中市太平區太平路741號</td>
+<td>(04)22115360</td>
+</tr>
+<tr>
+<td>五　權</td>
+<td>台中市西區五權西路一段228號</td>
+<td>(04)22115360</td>
+</tr>
+
+<tr>
+<td rowspan="100" class="a">南台中</td>
+<td>員　林</td>
+<td>彰化縣大村鄉中山路二段308號</td>
+<td>(04)22115360</td>
+</tr>
+<tr>
+<td>彰　化</td>
+<td>彰化縣花壇鄉中山路二段803號</td>
+<td>(04)22115360</td>
+</tr>
+<tr>
+<td>溪　湖</td>
+<td>彰化縣溪湖鎮員鹿路二段279號</td>
+<td>(04)22115360</td>
+</tr>
+<tr>
+<td>北彰化</td>
+<td>彰化縣彰化市彰南路一段190號</td>
+<td>(04)22115360</td>
+</tr>
+<tr>
+<td>鹿　港</td>
+<td>彰化縣福興鄉彰鹿路七段496號</td>
+<td>(04)22115360</td>
+</tr>
+<tr>
+<td>北　斗</td>
+<td>彰化縣田尾鄉中山路一段326號</td>
+<td>(04)22115360</td>
+</tr>
+<tr>
+<td>草　屯</td>
+<td>南投縣草屯鎮中正路1203號</td>
+<td>(04)22115360</td>
+</tr>
+<tr>
+<td>竹　山</td>
+<td>南投縣竹山鎮集山路三段290號</td>
+<td>(04)22115360</td>
+</tr>
+<tr>
+<td>埔　里</td>
+<td>南投縣埔里鎮信義路1100號</td>
+<td>(04)22115360</td>
+</tr>
+<tr>
+<td>南　投</td>
+<td>南投縣南投市南崗三路270號</td>
+<td>(04)22115360</td>
+</tr>
+<p STYLE="color: white;">未完待補充</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</table>
+
+</div>
+
+
+
+
+
+
+<footer align="center">  
+      <p id="foottxt">  2011 © ND Car 南都汽車. All Rights Reserved  台南市永康區中正南路377-1號  電話:06-2436977</p>       
+</footer>  
+</body>
+</html>
